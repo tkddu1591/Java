@@ -1,0 +1,29 @@
+package sub2;
+/*
+ * 날짜: 2023/06/12
+ * 이름: 김상엽
+ * 내용: Ch02.Java 자료형 실습하기
+ */
+public class DataTypeTest {
+
+	public static void main(String[] args) {
+	
+		byte num11 = 127;
+		short num12 = 32767;
+		int num13= 2147483647;
+		long num14 = 92237203685477507L;
+		
+		System.out.println("num11 : "+num11);
+		System.out.println("num12 : "+num12);
+		System.out.println("num13 : "+num13);
+		System.out.println("num14 : "+num14);
+		
+		float num21 = 3.14F;
+		double num22 = 1.2333333333;
+		boolean b = true;
+		char ch = 'a';
+		String St = "st";
+		
+	}
+
+}
