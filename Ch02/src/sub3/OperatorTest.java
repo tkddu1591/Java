@@ -1,6 +1,5 @@
 package sub3;
 
-import java.io.BufferedWriter;
 
 /*
  * 날짜: 2023/06/13

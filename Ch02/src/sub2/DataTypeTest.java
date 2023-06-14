@@ -1,6 +1,5 @@
 package sub2;
 
-import java.io.StringBufferInputStream;
 
 /*
  * 날짜: 2023/06/12
