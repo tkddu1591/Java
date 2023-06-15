@@ -61,10 +61,7 @@ public class WhileTest {
 
 		bw.write("\n1부터 "+String.valueOf(num)+" 까지의 짝수 합 : "+String.valueOf(total));
 		bw.flush();
-		
-		bw.close();
-
-		
+		bw.close();	
+	
 	}
-
 }
