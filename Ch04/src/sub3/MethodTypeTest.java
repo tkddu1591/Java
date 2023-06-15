@@ -5,7 +5,11 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-
+/*
+ * 날짜: 2023/06/14
+ * 이름: 김상엽
+ * 내용: Ch04. Method tyep 실습하기
+ */
 public class MethodTypeTest {
 	
 	
