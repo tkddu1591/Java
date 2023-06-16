@@ -1,6 +1,5 @@
 package test1;
 
-import java.util.Scanner;
 
 /*
  * 날짜: 2023/06/13

@@ -37,6 +37,7 @@ public class Test05 {
 		else
 			System.out.println("찾는 숫자가 없습니다.");
 		
+		sc.close();
 		
 	}
 

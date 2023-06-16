@@ -5,12 +5,7 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
 import java.util.StringTokenizer;
 
 /*
@@ -29,9 +24,7 @@ public class Test13 {
 		ArrayList<String> numbers= new ArrayList<>();
 		ArrayList<String> numbers2= new ArrayList<>();
 		
-		int sum =0;
 		int[] subs= new int[2];
-		int[] cheaks=new int[2];
 		
 		while(st.hasMoreTokens()) {
 			numbers.add(st.nextToken());

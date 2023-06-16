@@ -45,7 +45,6 @@ public class MethodTypeTest {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		MethodTypeTest mtt=new MethodTypeTest();
 		double r1 = Integer.parseInt(br.readLine());
-		double r2 = Integer.parseInt(br.readLine());
 		double r3 = mtt.type1(r1);
 		bw.write(String.valueOf(r3));
 		bw.flush();

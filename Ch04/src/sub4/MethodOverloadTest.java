@@ -1,9 +1,7 @@
 package sub4;
 
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 /*
  * 날짜: 2023/06/14
@@ -25,7 +23,6 @@ public class MethodOverloadTest {
 		return a+b;
 	}
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		MethodOverloadTest mt = new MethodOverloadTest();
 
