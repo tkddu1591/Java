@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 
 /*
- * 날짜: 2023/06/14
+ * 날짜: 2023/06/16
  * 이름: 김상엽
  * 내용: Ch04. 배열(arrays) 실습하기
  */
