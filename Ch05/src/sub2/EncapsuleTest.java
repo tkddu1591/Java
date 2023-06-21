@@ -30,7 +30,7 @@ public class EncapsuleTest  {
 		avante.speedDown(20);
 		avante.show();
 		
-		Account kb = new Account("홍길동", "국민은행", "101-1123-1234", 10000);
+		Account kb = new Account("홍길동", "국민은행", "101-1123-1234", 100000);
 		kb.deposit(60000);
 		kb.withdraw(20000);
 		kb.show();
