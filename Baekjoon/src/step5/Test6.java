@@ -5,32 +5,51 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.StringTokenizer;
 
 public class Test6 {
 	public static void main(String[] args)throws IOException {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-		int number = Integer.parseInt(br.readLine());
-		String numAlpa;
-		StringTokenizer token;
-		String ch;
-		int num;
-		String alpa;
-		for(int i =0; i<number; i++) {
-			numAlpa=br.readLine();
-			token = new StringTokenizer(numAlpa);
-			num = Integer.parseInt(token.nextToken());
-			alpa = token.nextToken();
-			for(int j =0; j<alpa.length(); j++) {
-				for(int z=0; z<num;z++) {
-					bw.write(alpa.substring(j,j+1));
-				}
-			}
+		String str = br.readLine();
+		int arr[] = new int[26];
+		char[] alpa = str.toCharArray();
+		int mid;	
+		int num=0;
 
-			bw.write("\n");
+		for(int i =0; i<26;i++) 
+			arr[i]=-1;
+
+		for(int i =0; i<str.length(); i++) {
+			num= (int)alpa[i]-97;
+			int min =-1;
+			int max =27;
+
+			if(arr[num]==-1) {
+
+				while(min<max) {
+					mid = (max+min)/2;
+
+					if(num<mid) {
+						max= mid;
+					}
+
+					else if(num>mid) {
+						min= mid;
+					}
+
+					else {
+						arr[num]=i;
+						break;
+					}
+
+				}
+
+			}
 		}
+		for(int i =0; i<26;i++) 
+			bw.write(String.valueOf(arr[i]+" "));
+
 		bw.flush();
 		bw.close();
 		

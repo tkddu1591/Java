@@ -1,13 +1,13 @@
 package sub2;
 
-public class Account {
+public class Account2 {
 	private String name;
 	private int balance;
 	private String id;
 	private String bank;
 	
 	//생성자 : 캡슐화된 속성을 초기화 하기 위한 메서드
-	public Account(String name, String bank, String id, int balnace) {
+	public Account2(String name, String bank, String id, int balnace, int balance) {
 		this.name = name;
 		this.balance = balance;
 		this.bank = bank;

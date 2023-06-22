@@ -1,32 +1,34 @@
-package step3;
+package step5;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.StringTokenizer;
 
-public class Test12 {
-
-
+public class Test9 {
 	public static void main(String[] args)throws IOException {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int[] num = new int[2];
-
-		String s;
-		while((s = br.readLine())!= null) {
-			StringTokenizer st = new StringTokenizer(s);
-			num[0]=Integer.parseInt( st.nextToken());
-			num[1]=Integer.parseInt( st.nextToken());
-			bw.write(String.valueOf(num[0]+num[1])+"\n");
+		char[] arr= br.readLine().toCharArray();
+		int number;
+		int count=0;
+		for(char i:arr) {
+			number = (int)i-65;
+			if(number<15)
+				count+=number/3+3;
+			else if(number<19)
+				count+=8;
+			else if(number<22)
+				count+=9;
+			else if(number<26)
+				count+=10;
+			
 		}
-
 		
-		
+		bw.write(String.valueOf(count));
 		bw.flush();
 		bw.close();
-
+		
 	}
-
 }

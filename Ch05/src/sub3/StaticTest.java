@@ -1,6 +1,5 @@
 package sub3;
 
-import javax.imageio.plugins.tiff.GeoTIFFTagSet;
 
 /*
  * 날짜: 2023/06/20

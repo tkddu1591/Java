@@ -16,7 +16,6 @@ public class Test2 {
 		st = new StringTokenizer(s);
 		int num = Integer.parseInt(st.nextToken());
 		int number = Integer.parseInt(st.nextToken());
-		int count = 0;
 		s = br.readLine();
 		st = new StringTokenizer(s);
 		for(int i = 0; i<num; i++) {

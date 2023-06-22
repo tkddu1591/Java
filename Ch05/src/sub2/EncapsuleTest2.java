@@ -14,7 +14,7 @@ import java.io.IOException;
  *  - 은닉된 정보의 안전한 사용을 위해 Getter, Setter 제공
  * 
  */
-public class EncapsuleTest  {
+public class EncapsuleTest2  {
 	
 	public static void main(String[] args)throws IOException {
 	
@@ -30,12 +30,12 @@ public class EncapsuleTest  {
 		avante.speedDown(20);
 		avante.show();
 		
-		Account kb = new Account("홍길동", "국민은행", "101-1123-1234", 100000);
+		Account2 kb = new Account2("홍길동", "국민은행", "101-1123-1234", 100000, 0);
 		kb.deposit(60000);
 		kb.withdraw(20000);
 		kb.show();
 		
-		Account wr = new Account("강감찬", "우리은행", "102-4532-1234", 20000);
+		Account2 wr = new Account2("강감찬", "우리은행", "102-4532-1234", 20000, 0);
 		wr.deposit(100000);
 		wr.withdraw(27900);
 		wr.show();
