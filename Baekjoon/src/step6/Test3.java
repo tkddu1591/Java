@@ -8,25 +8,28 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class Test2 {
+public class Test3 {
 	public static void main(String[] args) throws IOException {
 		BufferedWriter bw =new BufferedWriter(new OutputStreamWriter(System.out));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		ArrayList<Integer> list= new ArrayList<>();
-		int chess[] = {1,1,2,2,2,8};
-		
-		while(st.hasMoreTokens()) {
-			list.add(Integer.parseInt(st.nextToken()));
+		int num = Integer.parseInt(br.readLine());
+		int count =0;
+		for(int i=1; i<=num*2-1; i++) {
+			if(i<num)
+				count=i;
+			else
+				count=num*2-i;
+			for(int j=0; j<num-count;j++)
+				System.out.print(" ");
+			for(int j =0; j<2*count-1; j++)
+				System.out.print("*");
+			
+			System.out.print("\n");
 		}
-		for(int i =0; i<list.size(); i++) {
-			chess[i] -=list.get(i);
-			bw.write(chess[i]+" ");
-		}
-		
 		
 		bw.flush();
 		bw.close();
 	}
 
 }
+
