@@ -15,7 +15,6 @@ public class StringTest {
 		// 문자열(문자+배열) 생성
 		String st1 = "Hello";				//암시적(리터럴)
 		String st2 = new String("Hello");	//명시적
-		StringBuilder st3 = new StringBuilder("world");
 		
 		System.out.println("st1 : "+st1);
 		System.out.println("st2 : "+st2);
@@ -66,9 +65,9 @@ public class StringTest {
 		String s2 = String.valueOf(var2);
 		String s3 = ""+(var3);
 		
-		System.out.println("var1 : "+var1);
-		System.out.println("var2 : "+var2);
-		System.out.println("var3 : "+var3);
+		System.out.println("var1 : "+s1);
+		System.out.println("var2 : "+s2);
+		System.out.println("var3 : "+s3);
 		
 	}
 }

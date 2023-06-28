@@ -15,10 +15,11 @@ public class ThrowsTest {
 	}
 	public static void myMethod2(int n1)throws Exception{
 
-		Scanner sc= new Scanner(System.in);
-		int n2 = sc.nextInt();
-		int result = n1/n2;
-		System.out.println("result : "+result);
+		try (Scanner sc = new Scanner(System.in)) {
+			int n2 = sc.nextInt();
+			int result = n1/n2;
+			System.out.println("result : "+result);
+		}
 	}
 	
 	public static void main(String[] args) {

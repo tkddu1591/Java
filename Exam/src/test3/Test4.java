@@ -10,7 +10,7 @@ class Student{
 	private String major;
 	private int grage;
 	public Student(String studentName, String major, int grage) {
-		this.studentId++;
+		Student.studentId++;
 		this.studentName = studentName;
 		this.major = major;
 		this.grage = grage;
@@ -18,7 +18,7 @@ class Student{
 	
 	public void studentInfo() {
 		System.out.println("=============");
-		System.out.println("학번 : "+studentId);
+		System.out.println("학번 : "+Student.studentId);
 		System.out.println("이름 : "+studentName);
 		System.out.println("전공 : "+major);
 		System.out.println("학년 : "+grage);

@@ -7,12 +7,22 @@ package sub3;
 
 //사용자 정의 예외클래스
 class MinusException extends Exception{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public MinusException(String msg) {
 		super(msg);
 	}
 }
 
 class OverException extends Exception{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public OverException (String msg){
 		super(msg);
 	}

@@ -16,7 +16,7 @@ public class MathTest {
 		//random 메서드
 		System.out.println("랜덤 : "+Math.random());
 		double num1 = Math.random()*10;
-		System.out.println("랜덤 : "+Math.random());
+		System.out.println("랜덤 : "+num1);
 		
 		
 		int rand = (int)Math.ceil(Math.random()*45);

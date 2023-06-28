@@ -12,6 +12,8 @@ package sub1;
  *   - 사용자가 생성한 예외를 Throw
  */
 public class ExcetionTest {
+	private static Animal ani;
+
 	public static void main(String[] args)  {
 		//실행 예외
 		
@@ -52,8 +54,7 @@ public class ExcetionTest {
 			System.out.println(e.getMessage());
 		}
 		
-		// 예외상황3
-		Animal ani = null;
+		ani = null;
 		try {
 			ani.move();
 		} catch (NullPointerException e) {

@@ -1,6 +1,5 @@
 package test3;
 
-import test2.Test01;
 
 /*
  * 날짜: 2023/06/23
