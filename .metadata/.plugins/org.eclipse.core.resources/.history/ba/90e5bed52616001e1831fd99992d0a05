@@ -1,0 +1,45 @@
+package sub4;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+/**
+ * 날짜 : 2023/06/29
+ * 이름 : 김상엽
+ * 내용 : Ch09. Java Properties 실습하기
+ * 
+ * 
+ */
+public class PopertiesTset {
+	public static void main(String[] args) {
+		Properties prop = new Properties();
+		prop.setProperty("A", "Apple");
+		prop.setProperty("B", "Banana");
+		prop.setProperty("C", "Cherry");
+		
+		System.out.println(prop);
+		
+
+		String path1 = "C:\\Users\\Java\\Desktop\\Fruit.properties";
+		FileOutputStream fos;
+		try {
+			fos = new FileOutputStream(path1);
+
+			prop.store(fos, null);
+			
+			fos.flush();
+			fos.close();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println("프로그램 종료...");
+		
+	}
+	
+}

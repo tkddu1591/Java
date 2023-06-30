@@ -1,0 +1,30 @@
+package sub5;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * 날짜 : 2023/06/28
+ * 이름 : 김상엽
+ * 내용 : Ch07. Set 실습하기
+ */
+public class MapTest {
+	
+	public static void main(String[] args) {
+		//Map 생성
+		Map<Character, String> map = new HashMap<>();
+		
+		map.put('A', "Apple");
+		map.put('B', "Banana");
+		map.put('C', "Cherry");
+
+		System.out.println(map);
+		System.out.println(map.get('A'));
+		System.out.println(map.size());
+		
+		for(char k : map.keySet()) {
+			System.out.println(k);
+		}
+	}
+	
+}

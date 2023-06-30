@@ -1,0 +1,26 @@
+package sub1;
+/**
+ * 날짜: 2023/06/26
+ * 이름: 김상엽
+ * 내용: Ch06. Java 예외처리 실습하기
+ */
+public class ExcetionTest {
+	public static void main(String[] args) {
+		//실행 예외
+		
+		int num1 =1;
+		int num2 =2;
+		
+		int rs1 = num1 + num2;
+		int rs2 = num1 - num2;
+		int rs3 = num1 * num2;
+		int rs4 = num1 / num2;
+		
+		System.out.println("rs1 : "+rs1);
+		System.out.println("rs2 : "+rs2);
+		System.out.println("rs3 : "+rs3);
+		System.out.println("rs4 : "+rs4);
+		
+		//일반 예외
+	}
+}

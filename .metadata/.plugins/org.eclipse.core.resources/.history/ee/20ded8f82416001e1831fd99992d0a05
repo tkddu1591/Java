@@ -1,0 +1,23 @@
+package sub4;
+
+import java.util.Properties;
+
+/**
+ * 날짜 : 2023/06/29
+ * 이름 : 김상엽
+ * 내용 : Ch09. Java Properties 실습하기
+ * 
+ * 
+ */
+public class PopertiesTset {
+	public static void main(String[] args) {
+		Properties prop = new Properties();
+		prop.setProperty("A", "Apple");
+		prop.setProperty("B", "Banana");
+		prop.setProperty("C", "Cherry");
+		
+		System.out.println(prop);
+		
+	}
+	
+}

@@ -1,0 +1,69 @@
+package sub5;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import sub3.Apple2;
+
+/**
+ * 날짜 : 2023/06/28
+ * 이름 : 김상엽
+ * 내용 : Ch07. Set 실습하기
+ */
+public class MapTest {
+	
+	public static void main(String[] args) {
+		//Map 생성
+		Map<Character, String> map = new HashMap<>();
+		
+		map.put('A', "Apple");
+		map.put('B', "Banana");
+		map.put('C', "Cherry");
+
+		System.out.println(map);
+		System.out.println(map.get('A'));
+		System.out.println(map.size());
+		
+		for(char k : map.keySet()) {
+			System.out.println(k);
+			System.out.println(k+" - "+map.get(k));
+		}
+		
+		for(String k : map.values()) {
+			System.out.println(k);
+		}
+		
+		//List -Map 응용
+		
+		List<Map<Integer, Apple>> list = new ArrayList<>();
+		
+		Map<Integer, Apple> m1 = new HashMap<>();
+		m1.put(101,new Apple("한국", 3000));
+		m1.put(102,new Apple("중국", 2000));
+		m1.put(103,new Apple("일본", 1000));
+		
+		Map<Integer, Apple> m2 = new HashMap<>();
+		m1.put(201,new Apple("미국", 3000));
+		m1.put(202,new Apple("영국", 2000));
+		m1.put(203,new Apple("호주", 1000));
+		
+		Map<Integer, Apple> m3 = new HashMap<>();
+		m1.put(301,new Apple("대만", 3000));
+		m1.put(302,new Apple("태국", 2000));
+		m1.put(303,new Apple("홍콩", 1000));
+		
+		list.add(m1);
+		list.add(m2);
+		list.add(m3);
+		
+		list.get(0);
+		System.out.println(list.get(0));
+		
+		
+		
+
+	}
+	
+}

@@ -1,0 +1,16 @@
+package sub1;
+/**
+ * 날짜 : 2023/06/27
+ * 이름 : 김상엽
+ * 내용 : Ch07. Java Object 클래스 실습하기
+ */
+public class ObejctTest {
+	public static void main(String[] args) {
+		Object apple1 = new Apple("한국", 3000);
+		Object apple2 = new Apple("일본", 2000);
+		
+		System.out.println(apple1);
+		System.out.println(apple2);
+		
+	}
+}

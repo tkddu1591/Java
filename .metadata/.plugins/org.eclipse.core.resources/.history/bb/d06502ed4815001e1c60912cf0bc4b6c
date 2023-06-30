@@ -1,0 +1,23 @@
+package sub6;
+
+import java.util.regex.Pattern;
+
+/**
+ * 날짜 : 2023/06/29
+ * 이름 : 김상엽
+ * 내용 : Ch07. Java Date 클래스 실습하기
+ */
+public class RegularExpressionTest {
+	
+	public static void main(String[] args) {
+		//정규표현식
+		String strPatt = "a[a-z]*";
+		boolean r1=Pattern.matches(strPatt, "apple");
+		System.out.println(r1);
+		//정규표현식 패턴
+		//자주사용하는 정규표현식
+		
+		
+	}
+
+}

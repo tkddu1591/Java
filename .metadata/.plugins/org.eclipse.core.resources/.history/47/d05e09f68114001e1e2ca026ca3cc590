@@ -1,0 +1,34 @@
+package sub1;
+/**
+ * 날짜 : 2023/06/27
+ * 이름 : 김상엽
+ * 내용 : Ch07. Java Object 클래스 실습하기
+ */
+public class ObejctTest {
+	public static void main(String[] args) {
+		
+		// Object 타입으로 다형성 적용
+		Object apple1 = new Apple("한국", 3000);
+		Object apple3 = new Apple("한국", 3000);
+		Object apple2 = new Apple("일본", 2000);
+		
+		// toString() : 객체의 정보 조회
+		System.out.println(apple1);
+		System.out.println(apple2);
+		
+		// 객체 비교
+		if(apple1==apple3){
+			System.out.println("a1, a2 주소 동일");
+		}
+		else
+			System.out.println("a1, a2 주소 다름");
+
+		if(apple1.equals(apple3)){
+			System.out.println("a1, a2 가리키는 객체가 동일");
+		}
+		else
+			System.out.println("a1, a2 가리키는 객체가 다름");
+
+		
+	}
+}

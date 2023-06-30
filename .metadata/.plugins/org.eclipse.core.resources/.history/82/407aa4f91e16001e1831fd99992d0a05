@@ -1,0 +1,7 @@
+package sub3;
+
+public class SerializeTest {
+	public static void main(String[] args) {
+		
+	}
+}

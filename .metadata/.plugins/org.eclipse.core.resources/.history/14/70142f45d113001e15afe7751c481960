@@ -1,0 +1,32 @@
+package step6;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.util.ArrayList;
+import java.util.StringTokenizer;
+
+public class Test6 {
+	public static void main(String[] args) throws IOException {
+		BufferedWriter bw =new BufferedWriter(new OutputStreamWriter(System.out));
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String st=br.readLine();
+	
+		st.replaceAll("c=","a");
+		st.replaceAll("c-","a");
+		st.replaceAll("dz=","a");
+		st.replaceAll("d-","a");
+		st.replaceAll("lj","a");
+		st.replaceAll("nj","a");
+		st.replaceAll("s=","a");
+		st.replaceAll("z=","a");
+		
+		bw.write(st);
+		bw.flush();
+		bw.close();
+	}
+
+}
+

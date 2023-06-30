@@ -1,0 +1,26 @@
+package sub3;
+/**
+ * 날짜 : 2023/06/27
+ * 이름 : 김상엽
+ * 내용 : Ch07. Java Wrapper 클래스 실습하기
+ */
+public class WrapperTest {
+
+	
+	public static void main(String[] args) {
+		
+		//기본타입 primitive
+		int var1=1;
+		double var2 = 3.14;
+		boolean var3 =true;
+		
+		// Wrapper 포장(Boxing)
+		Integer box1 = var1;
+		Double box2 =var2;
+		Boolean box3 = var3;
+		System.out.println("box1 : "+box1);
+		System.out.println("box2 : "+box2);
+		System.out.println("box3 : "+box3);
+		
+	}
+}

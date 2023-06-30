@@ -1,0 +1,13 @@
+package sub3;
+/**
+ * 날짜 : 2023/06/29
+ * 이름 : 김상엽
+ * 내용 : Ch09. 객체 스트림 실습하기
+ * 
+ * 
+ */
+public class SerializeTest {
+	public static void main(String[] args) {
+		
+	}
+}

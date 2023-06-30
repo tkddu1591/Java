@@ -1,0 +1,16 @@
+package sub1;
+
+public class FruitBox {
+	
+	private Apple fruit;
+
+	public Apple getFruit() {
+		return fruit;
+	}
+
+	public void setFruit(Apple fruit) {
+		this.fruit = fruit;
+	}
+	
+	
+}
