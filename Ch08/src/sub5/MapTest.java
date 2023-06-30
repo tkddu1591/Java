@@ -11,6 +11,10 @@ import sub3.Apple;
  * 날짜 : 2023/06/28
  * 이름 : 김상엽
  * 내용 : Ch07. Set 실습하기
+ * 
+ * 맵(Map)
+ *   - 키-값(key-Value) 쌍으로 이루어진 자료구조
+ *   - Map을 구현한 HashMap
  */
 public class MapTest {
 	

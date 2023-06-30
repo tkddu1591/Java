@@ -5,10 +5,10 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 public class Test5 {
+
 	public static void main(String[] args) throws IOException {
 		BufferedWriter bw =new BufferedWriter(new OutputStreamWriter(System.out));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -19,7 +19,8 @@ public class Test5 {
 		double gradedata = 0;
 		double[] total = new double[21];
 		double credittotal= 0;
-		String trash;
+		@SuppressWarnings("unused")
+		String trash = null;
 		
 		for(int i =0; i<20; i++) {
 			st = new StringTokenizer(br.readLine());
