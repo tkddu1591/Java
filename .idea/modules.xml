@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.org.eclipse.egit.core.cmp.iml" filepath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.org.eclipse.egit.core.cmp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Baekjoon/Baekjoon.iml" filepath="$PROJECT_DIR$/Baekjoon/Baekjoon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ch01/Ch01.iml" filepath="$PROJECT_DIR$/Ch01/Ch01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ch02/Ch02.iml" filepath="$PROJECT_DIR$/Ch02/Ch02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ch03/Ch03.iml" filepath="$PROJECT_DIR$/Ch03/Ch03.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ch04/Ch04.iml" filepath="$PROJECT_DIR$/Ch04/Ch04.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ch05/Ch05.iml" filepath="$PROJECT_DIR$/Ch05/Ch05.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ch06/Ch06.iml" filepath="$PROJECT_DIR$/Ch06/Ch06.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ch07/Ch07.iml" filepath="$PROJECT_DIR$/Ch07/Ch07.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ch08/Ch08.iml" filepath="$PROJECT_DIR$/Ch08/Ch08.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ch09/Ch09.iml" filepath="$PROJECT_DIR$/Ch09/Ch09.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Exam/Exam.iml" filepath="$PROJECT_DIR$/Exam/Exam.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Textbook/Textbook.iml" filepath="$PROJECT_DIR$/Textbook/Textbook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
     </modules>
   </component>
 </project>

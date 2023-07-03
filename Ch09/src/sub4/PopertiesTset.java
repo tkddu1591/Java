@@ -13,7 +13,7 @@ import java.util.Properties;
  * 
  *  프로퍼티(Properties)
  *   문자열 데이터만 취급하는 Key-Value 자료구조 클래스
- *   - 프로그램의 환경설정값을 저장할 때 많이 사용
+ *   - 프로그램의 환경ㅅ러정값을 저장할 때 많이 사용
  *   - 입출력스트림으로 데이터 입출력하는 자료구조 클래스
  */
 public class PopertiesTset {
