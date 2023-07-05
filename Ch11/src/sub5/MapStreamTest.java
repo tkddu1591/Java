@@ -8,6 +8,7 @@ package sub5;
  *  - 스트림 요소(컬렉션 원소)를 다른 요소로 변환시키는 스트림
  *  - map(), flatMap() 등
  * */
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -26,7 +27,9 @@ public class MapStreamTest {
         List<String> list = Arrays.asList("1,2,3", "4,5,6", "7,8,9");
         System.out.println(list);
 
-        list.stream().flatMap(str -> Arrays.stream(str.split(","))).forEach(num -> System.out.println(num + ", "));
+        list.stream()
+                .flatMap(str -> Arrays.stream(str.split(",")))
+                .forEach(num -> System.out.println(num + ", "));
 
         int result = list.stream().flatMapToInt(str ->
         {

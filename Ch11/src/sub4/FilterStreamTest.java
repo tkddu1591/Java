@@ -21,11 +21,15 @@ public class FilterStreamTest {
         System.out.println();
 
         //5 이상 데이터 필터링
-        numbers.stream().filter(num -> num >= 5).forEach(num -> System.out.print(num + ", "));
+        numbers.stream()
+                .filter(num -> num >= 5)
+                .forEach(num -> System.out.print(num + ", "));
         System.out.println();
         //중복제거, 짝수데이터
-        numbers.stream().distinct().filter(num -> num % 2 == 0).forEach(num -> System.out.print(num + ", "));
-
+        numbers.stream()
+                .distinct()
+                .filter(num -> num % 2 == 0)
+                .forEach(num -> System.out.print(num + ", "));
 
 
     }
