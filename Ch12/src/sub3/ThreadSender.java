@@ -19,6 +19,7 @@ public class ThreadSender extends Thread {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             PrintWriter writer = new PrintWriter(socket.getOutputStream());
             while (true) {
+
                 String msg = br.readLine();
                 if (msg.equals("bye")) {
                     break;

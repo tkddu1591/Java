@@ -14,14 +14,15 @@ public class Test1 {
         int total = 0;
         for(int i=0; i<str.length();i++){
             char num = str.substring(i,i+1).charAt(0);
+            double pow = Math.pow(arithmetic, str.length() - i - 1);
             if((int)num < 65){
-                total += Math.pow(arithmetic,str.length()-i-1)*((int)num-48);
+                total += pow *((int)num-48);
             }
             else{
-                total += Math.pow(arithmetic,str.length()-i-1)*((int)num-55);
+                total += pow *((int)num-55);
             }
         }
-        bw.write(total+"");
+        bw.write(String.valueOf(total));
         bw.flush();
         bw.close();
 
