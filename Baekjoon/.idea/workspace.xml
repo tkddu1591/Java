@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6c2a0a6-e54b-4856-9900-68a9a2f68516" name="변경" comment="baekjoon Ch06 Test7번 추가">
-      <change afterPath="$PROJECT_DIR$/src/step7/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step7/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step7/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step7/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step7/Test4Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step8/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step8/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MainTest/src/ch01/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MainTest/src/ch01/Test2.java" afterDir="false" />
+    <list default="true" id="e6c2a0a6-e54b-4856-9900-68a9a2f68516" name="변경" comment="baekjoon Ch07- Ch08(1, 2번) 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/step3/Test10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/step3/Test10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ch11/src/sub4/FilterStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch11/src/sub4/FilterStreamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ch11/src/sub5/MapStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch11/src/sub5/MapStreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/step8/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/step8/Test2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +112,8 @@
       <workItem from="1688515554465" duration="691000" />
       <workItem from="1688516820335" duration="786000" />
       <workItem from="1688517626561" duration="10291000" />
-      <workItem from="1688541517672" duration="2301000" />
+      <workItem from="1688541517672" duration="2854000" />
+      <workItem from="1688601946107" duration="1549000" />
     </task>
     <task id="LOCAL-00001" summary="baekjoon 파일 모듈 추가">
       <option name="closed" value="true" />
@@ -141,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688374012014</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="baekjoon Ch07- Ch08(1, 2번) 추가">
+      <option name="closed" value="true" />
+      <created>1688546501614</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688546501614</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +171,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="baekjoon 파일 모듈 추가" />
     <MESSAGE value="baekjoon Ch06 Test7번 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="baekjoon Ch06 Test7번 추가" />
+    <MESSAGE value="baekjoon Ch07- Ch08(1, 2번) 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="baekjoon Ch07- Ch08(1, 2번) 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

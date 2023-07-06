@@ -1,8 +1,6 @@
 package step8;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.StringTokenizer;
 
 public class Test2 {
@@ -13,31 +11,29 @@ public class Test2 {
         StringTokenizer st = new StringTokenizer(br.readLine());
         int total = Integer.parseInt(st.nextToken());
         int arithmetic = Integer.parseInt(st.nextToken());
-        int number = 0;
-        List<Integer> list =new ArrayList<>();
-        int count=0;
-        int check=0;
+        int number;
+        int count = 0;
+        int check = 0;
         int pow;
         char abc;
-        while(true){
+        while (true) {
             count++;
-            if(check>total||total/arithmetic==0) {
+            if (check > total || total / arithmetic == 0) {
                 break;
             }
-            check= (int) (Math.pow(arithmetic,count)*arithmetic);
+            check = (int) (Math.pow(arithmetic, count) * arithmetic);
         }
 
 
-        for(int i=0; i<count; i++){
+        for (int i = 0; i < count; i++) {
             pow = (int) (Math.pow(arithmetic, count - i - 1));
             number = total / pow;
-            total-=number*pow;
-            list.add(number);
-            if(number<10)
-                bw.write(number+"");
+            total -= number * pow;
+            if (number < 10)
+                bw.write(String.valueOf(number));
             else {
-                abc = (char)(55+number);
-                bw.write(abc+"");
+                abc = (char) (55 + number);
+                bw.write(String.valueOf(abc));
             }
         }
         bw.flush();
