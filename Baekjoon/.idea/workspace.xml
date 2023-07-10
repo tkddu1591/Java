@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6c2a0a6-e54b-4856-9900-68a9a2f68516" name="변경" comment="baekjoon Ch07- Ch08(3~6번) 추가">
+      <change afterPath="$PROJECT_DIR$/../Ch14/src/sub1/JDBCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch14/src/sub2/DeleteTset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch14/src/sub2/InsertTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch14/src/sub2/SelectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch14/src/sub2/UpdateTset.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/step8/Test6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/step8/Test6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +75,7 @@
       <recent name="step7" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Test1">
+  <component name="RunManager">
     <configuration name="Test1" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="JavaSE-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -134,6 +140,7 @@
       <workItem from="1688612610638" duration="3006000" />
       <workItem from="1688631155754" duration="2229000" />
       <workItem from="1688688414348" duration="555000" />
+      <workItem from="1688958175413" duration="3609000" />
     </task>
     <task id="LOCAL-00001" summary="baekjoon 파일 모듈 추가">
       <option name="closed" value="true" />
@@ -202,6 +209,17 @@
     <MESSAGE value="baekjoon Ch07- Ch08(1, 2번) 추가" />
     <MESSAGE value="baekjoon Ch07- Ch08(3~6번) 추가" />
     <option name="LAST_COMMIT_MESSAGE" value="baekjoon Ch07- Ch08(3~6번) 추가" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/step8/Test6.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
