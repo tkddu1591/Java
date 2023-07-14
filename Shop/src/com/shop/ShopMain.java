@@ -27,63 +27,63 @@ public class ShopMain {
         OrderDAO orderDAO=OrderDAO.getInstance();
         ProductDAO productDAO= ProductDAO.getInstance();
         String custId;
-        int log= 0;
-        CustomerVO customerVO = new CustomerVO();
+        CustomerVO loginCustomer = null;
         while (true) {
-            System.out.println("종료:0, 로그인:1, 회원가입:2, 상품목록:3, 구매하기:4 로그아웃:5");
-            System.out.print("번호 입력 : ");
-            int answer = sc.nextInt();
+            int answer = 0;
+            if(loginCustomer==null) {
+                System.out.println("종료:0, 로그인:1, 회원가입:2, 상품목록:3, 구매하기:4 ");
+                System.out.print("번호 입력 : ");
+                answer = sc.nextInt();
+            }
+            else {
+                System.out.println("종료:0, 로그아웃:1, 주문현황:2, 상품목록:3, 구매하기:4 ");
+                System.out.print("번호 입력 : ");
+                answer = sc.nextInt();
+            }
             if (answer == 0)
                 break;
             else if (answer == 1) {
-                if(log <1) {
+                if (loginCustomer == null) {
                     System.out.print("아이디 입력 : ");
                     custId = sc.next();
-                    customerVO= CustomerDAO.getInstance().selectCustomer(custId);
-                    if (customerVO != null) {
-                        System.out.println(customerVO.getName() + "님 어서오세요.");
-                        log = 1;
+                    loginCustomer = customerDAO.selectCustomer(custId);
+                    if (loginCustomer != null) {
+                        System.out.println(loginCustomer.getName() + "님 어서오세요.");
                     } else {
                         System.out.println("일치하는 회원이 없습니다.");
                     }
-                }
-                else
-                    System.out.println("로그인이 되어있습니다.");
-
-            }else if(answer==5){
-                if(log>0){
+                } else {
                     System.out.println("로그아웃 되었습니다.");
-                    log=0;
-                }
-                else {
-                    System.out.println("로그인을 먼저 해주세요.");
+                    loginCustomer = null;
                 }
             }
             else if (answer == 2) {
-                if(log<1) {
-                    customerVO = new CustomerVO();
-
+                if(loginCustomer==null) {
                     System.out.print("아이디 입력 : ");
-                    customerVO.setCustId(sc.next());
+                    loginCustomer.setCustId(sc.next());
                     System.out.print("이름 입력 : ");
-                    customerVO.setName(sc.next());
+                    loginCustomer.setName(sc.next());
                     System.out.print("휴대폰 입력 : ");
-                    customerVO.setHp(sc.next());
+                    loginCustomer.setHp(sc.next());
                     System.out.print("주소 입력 : ");
-                    customerVO.setAddr(sc.next());
-                    int result = CustomerDAO.getInstance().insertCustomer(customerVO);
+                    loginCustomer.setAddr(sc.next());
+                    int result = customerDAO.insertCustomer(loginCustomer);
                     if (result > 0) {
-                        System.out.println(customerVO.getCustId() + "님 회원가입이 완료되었습니다.");
+                        System.out.println(loginCustomer.getCustId() + "님 회원가입이 완료되었습니다.");
                     } else
                         System.out.println("회원가입에 실패 했습니다. 다시 시도해주세요.");
                 }
-                else{
-                    System.out.println("로그아웃을 먼저 해주세요.");
+                else{ // 아이디 대신 사용자 이름, 상품 번호 대신 상품 이름
+                    System.out.println("--------------주문현황-------------");
+                    List<OrderVO> orders =orderDAO.selectOrdersCust(loginCustomer.getCustId());
+                    for(OrderVO order : orders){
+                        System.out.println(order);
+                    }
                 }
             } else if (answer == 3) {
-                if(log>0) {
+                if(loginCustomer!=null) {
                     List<ProductVO> vos = new ArrayList<>();
-                    vos = ProductDAO.getInstance().selectProducts();
+                    vos = productDAO.selectProducts();
 
                     for (ProductVO prod : vos) {
                         System.out.println(prod);
@@ -95,19 +95,24 @@ public class ShopMain {
             } else if (answer == 4) {
 
 
-                if(log>0){
+                if(loginCustomer!=null){
                     OrderVO orderVO = new OrderVO();
                     ProductVO productVO = new ProductVO();
                     System.out.print("구매하실 상품의 번호를 입력해 주세요 : ");
                     int prodNo = sc.nextInt();
-                    orderVO.setOrderProduct(prodNo);
                     productVO.setProdNo(prodNo);
+                    orderVO.setOrderProduct(prodNo);
+
                     System.out.print("구매하실 상품의 개수를 입력해 주세요 : ");
                     int prodCount = sc.nextInt();
                     orderVO.setOrderCount(prodCount);
                     productVO.setStock(prodCount);
-                    orderVO.setOrderId(customerVO.getCustId());
+                    orderVO.setOrderId(loginCustomer.getCustId());
 
+
+                    productDAO.updateProductStock(productVO);
+                    orderDAO.insertOrder(orderVO);
+                    System.out.println(productVO.getProdNo()+" 번 상품이 "+productVO.getStock()+" 개 주문 완료되었습니다.");
                 }
                 else
                     System.out.println("로그인을 먼저 해주세요.");
