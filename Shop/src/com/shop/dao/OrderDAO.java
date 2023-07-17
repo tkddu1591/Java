@@ -43,9 +43,6 @@ public class OrderDAO extends DBHelper {
         return vos;
     }
 
-    public OrderVO selectOrder(String orderId) {
-        return null;
-    }
 
     public int insertOrder(OrderVO vo) {
         int result;
@@ -62,31 +59,6 @@ public class OrderDAO extends DBHelper {
         return result;
     }
 
-    public int deleteOrder(OrderVO vo) {
-        return 0;
-    }
 
-    public int orderNo() {
-        try {
-            conn = getConnection();
-            stmt = conn.createStatement();
-            rs = stmt.executeQuery(SQL.SELECT_ORDERS);
-            close();
-        } catch (ClassNotFoundException e) {
-            throw new RuntimeException(e);
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
-        return 0;
-    }
-
-    public void updateOrder(OrderVO vo) {
-        try {
-            conn = getConnection();
-            psmt = conn.prepareStatement(SQL.INSERT_ORDER_BYE);
-        } catch (ClassNotFoundException | SQLException e) {
-            throw new RuntimeException(e);
-        }
-    }
 
 }
