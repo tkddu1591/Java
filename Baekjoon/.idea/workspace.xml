@@ -5,13 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6c2a0a6-e54b-4856-9900-68a9a2f68516" name="변경" comment="baekjoon Ch07- Ch08(3~6번) 추가">
-      <change afterPath="$PROJECT_DIR$/../Ch14/src/sub1/JDBCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14/src/sub2/DeleteTset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14/src/sub2/InsertTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14/src/sub2/SelectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14/src/sub2/UpdateTset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/step9/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/step9/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/step9/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/step9/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/step9/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exam/src/test6/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exam/src/test6/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exam/src/test6/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exam/src/test6/Test04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exam/src/test6/Test05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exam/src/test6/Test06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exam/src/test6/Test07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exam/src/test6/Test08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exam/src/test6/Test09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exam/src/test6/Test10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch03/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch03/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch03/Test7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch04/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch04/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch04/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch04/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch04/Test6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch04/Test7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/step8/Test6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/step8/Test6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +91,12 @@
       <recent name="step7" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="step9" />
       <recent name="step8" />
       <recent name="step7" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="애플리케이션.Test5">
     <configuration name="Test1" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="JavaSE-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -104,8 +125,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="step9.Test5" />
+      <module name="Baekjoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="step9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Test5" />
         <item itemvalue="애플리케이션.Test4" />
       </list>
     </recent_temporary>
@@ -141,6 +176,11 @@
       <workItem from="1688631155754" duration="2229000" />
       <workItem from="1688688414348" duration="555000" />
       <workItem from="1688958175413" duration="3609000" />
+      <workItem from="1689565280616" duration="1695000" />
+      <workItem from="1689573070994" duration="9000" />
+      <workItem from="1689573964515" duration="4146000" />
+      <workItem from="1689638697100" duration="73000" />
+      <workItem from="1689660314535" duration="8318000" />
     </task>
     <task id="LOCAL-00001" summary="baekjoon 파일 모듈 추가">
       <option name="closed" value="true" />
@@ -217,6 +257,16 @@
           <url>file://$PROJECT_DIR$/src/step8/Test6.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/step9/Test3.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/step9/Test5.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
