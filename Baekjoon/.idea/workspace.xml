@@ -4,45 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6c2a0a6-e54b-4856-9900-68a9a2f68516" name="변경" comment="Exam test6 추가">
-      <change afterPath="$PROJECT_DIR$/src/step10/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step10/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step10/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step10/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step10/Test5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step10/Test6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step9/Test6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exam/src/test7/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exam/src/test7/Test10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exam/src/test7/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exam/src/test7/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exam/src/test7/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exam/src/test7/Test5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exam/src/test7/Test6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exam/src/test7/Test8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exam/src/test7/Test9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch05/Test7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch05/Test8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch05/Test9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch05/Week.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch05/WeekExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch05/sec11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch06/Sec15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch06/Sec16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch06/Sec17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch06/Sec18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch06/sec13/Sec13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch06/sec13/Sec14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch06/sec19/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch06/sec19/Sec19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch06/sec20/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch06/sec20/BankApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch07/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch07/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch07/Sec07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch07/Sec11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch07/Sec12.java" afterDir="false" />
+    <list default="true" id="e6c2a0a6-e54b-4856-9900-68a9a2f68516" name="변경" comment="Exam test7 추가">
+      <change afterPath="$PROJECT_DIR$/src/step10/Test7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Textbook/src/ch08/Example.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Textbook/bin/ch07/Example.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Textbook/bin/ch07/Example.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +112,8 @@
       <workItem from="1689725171288" duration="618000" />
       <workItem from="1689726967484" duration="4319000" />
       <workItem from="1689811503367" duration="486000" />
-      <workItem from="1689819493491" duration="4971000" />
+      <workItem from="1689819493491" duration="5012000" />
+      <workItem from="1689898825473" duration="704000" />
     </task>
     <task id="LOCAL-00001" summary="baekjoon 파일 모듈 추가">
       <option name="closed" value="true" />
@@ -188,7 +155,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689670246315</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Exam test7 추가">
+      <option name="closed" value="true" />
+      <created>1689842988108</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689842988108</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Exam test7 추가">
+      <option name="closed" value="true" />
+      <created>1689842995444</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689842995444</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +206,8 @@
     <MESSAGE value="baekjoon Ch07- Ch08(1, 2번) 추가" />
     <MESSAGE value="baekjoon Ch07- Ch08(3~6번) 추가" />
     <MESSAGE value="Exam test6 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exam test6 추가" />
+    <MESSAGE value="Exam test7 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exam test7 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
